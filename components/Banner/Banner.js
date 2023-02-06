@@ -5,17 +5,24 @@ import bannerImg from '../../public/BannerImg1.png';
 const Banner = () => {
     return (
         <div>
-            <div className="">
-                <div className="flex justify-between items-center">
-                    <div>
-                        <h1 className="text-5xl font-bold">Healthy Inside <br/> Fresh Outside</h1>
-                        <p className="">Exercise is a very important need for our body. Health and <br/> fitness will be obtained if you can do regular exercise and <br/> run a healthy routine.</p>
-                        <button className="btn btn-primary">Get Started</button>
+            <div className="flex flex-col md:flex-row justify-between items-center">
+                <div className="p-4">
+                    <h2>Healthy in side <br/> fresh out side</h2>
+                    <p>Exercise is a very important need for our body. Health and <br/> fitness will be obtained if you can do regular exercise and <br/> run a healthy routine.</p>
+                    <div className="mb-14">
+                        <button className="mr-14">Get Started</button>
+                        <button>Learn More</button>
                     </div>
+                    <p className="mb-7">Brands</p>
+                    <div>
 
-                    <Image src={bannerImg} className="rounded-lg shadow-2xl" />
+                    </div>
+                </div>
+                <div className="p-4">
+                    <Image src={bannerImg} className="rounded-lg shadow-2xl" alt="" />
                 </div>
             </div>
+
         </div>
     );
 };
