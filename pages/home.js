@@ -3,6 +3,8 @@ import BestWorkout from '@/components/BestWorkout/BestWorkout';
 import DailyMorningWorkout from '@/components/DailyMorningWorkout/DailyMorningWorkout';
 import FitnessChallenge from '@/components/FitnessChallenge/FitnessChallenge';
 import HealthyAndFresh from '@/components/HealthyAndFresh/HealthyAndFresh';
+import HowItWorks from '@/components/HowItWorks/HowItWorks';
+import WorkOutPrograms from '@/components/WorkOutPrograms/WorkOutPrograms';
 import React from 'react';
 
 const Test = () => {
@@ -13,6 +15,8 @@ const Test = () => {
             <FitnessChallenge></FitnessChallenge>
             <BestWorkout></BestWorkout>
             <DailyMorningWorkout></DailyMorningWorkout>
+            <HowItWorks></HowItWorks>
+            <WorkOutPrograms></WorkOutPrograms>
         </div>
     );
 }
