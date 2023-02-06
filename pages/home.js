@@ -3,10 +3,10 @@ import React from 'react';
 
 const Test = () => {
     return (
-        <div>
+        <div >
             <Banner></Banner>
         </div>
     );
-};
+}
 
 export default Test;
