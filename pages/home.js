@@ -4,6 +4,7 @@ import DailyMorningWorkout from '@/components/DailyMorningWorkout/DailyMorningWo
 import FitnessChallenge from '@/components/FitnessChallenge/FitnessChallenge';
 import HealthyAndFresh from '@/components/HealthyAndFresh/HealthyAndFresh';
 import HowItWorks from '@/components/HowItWorks/HowItWorks';
+import Testimonials from '@/components/Testimonials/Testimonials';
 import WorkOutPrograms from '@/components/WorkOutPrograms/WorkOutPrograms';
 import React from 'react';
 
@@ -17,6 +18,7 @@ const Test = () => {
             <DailyMorningWorkout></DailyMorningWorkout>
             <HowItWorks></HowItWorks>
             <WorkOutPrograms></WorkOutPrograms>
+            <Testimonials></Testimonials>
         </div>
     );
 }
