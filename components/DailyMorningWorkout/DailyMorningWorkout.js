@@ -7,8 +7,8 @@ const DailyMorningWorkout = () => {
         <div>
             <div className="flex flex-col md:flex-row justify-between items-center">
                 <div className="p-4">
-                    <h2>Healthy in side <br /> fresh out side</h2>
-                    <p>Exercise is a very important need for our body. Health and <br /> fitness will be obtained if you can do regular exercise and <br /> run a healthy routine.</p>
+                    <h2 className='text-[#262524] font-normal text-5xl mb-8'>Daily morning <br/> workout in home</h2>
+                    <p>Exercise is a very important need for our body. Health and fitness <br/> will be obtained if you can do regular exercise and run a healthy <br/> routine. Even at home we still have to be diligent in exercising, either <br/> alone or with your friends at home. </p>
                     <div className="mb-14">
                         <button className="mr-14">Get Started</button>
                         <button>Learn More</button>
