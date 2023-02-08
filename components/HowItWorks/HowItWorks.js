@@ -1,13 +1,13 @@
 import Image from "next/image";
-import bannerImg from '../../public/BannerImg1.png';
+import bgImg1 from '../../public/image 81.png';
 
 const HowItWorks = () => {
     return (
         <div>
             <div className="mx-6 md:ml-[200px] md:mr-[110px] mb-28 ">
                 <div className="flex flex-col-reverse md:flex-row justify-between items-center">
-                    <div className="p-4">
-                        <Image src={bannerImg} className="rounded-lg shadow-2xl" alt="" />
+                    <div className="p-4 bgImage">
+                        <Image src={bgImg1} className="w-[415px] h-[408px] ml-8 -mb-28 rounded" alt="" />
                     </div>
                     <div className="p-4">
                         <h2 className="text-[#262524] font-normal text-5xl mb-8">How it works</h2>

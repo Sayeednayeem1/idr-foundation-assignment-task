@@ -1,5 +1,5 @@
 import Image from "next/image";
-import bannerImg from '../../public/BannerImg1.png';
+import bannerImg from '../../public/image 78.png';
 import { BsArrowRight } from "react-icons/bs";
 
 const BestWorkout = () => {
