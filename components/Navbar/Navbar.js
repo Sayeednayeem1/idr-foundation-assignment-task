@@ -4,12 +4,16 @@ import React from 'react';
 const Navbar = () => {
 
     const navItems = <>
-        <li> <Link href='/contact'>Contact</Link> </li>
         <li> <Link href='/'>Home</Link> </li>
+        <li> <h1>program</h1> </li>
+        <li> <h1>Blog</h1> </li>
+        <li> <h1>About us</h1> </li>
+        <li> <button className='bg-[#264373] md:py-[13px] md:px-[35px]  text-white font-normal text-[16px]'>Log in</button></li> 
+        
     </>
 
     return (
-        <div >
+        <div className='mb-24 px-6 md:px-[100px] md:py-[55px]'>
             <div className="navbar">
                 <div className="navbar-start">
                     <div className="dropdown">
@@ -20,7 +24,7 @@ const Navbar = () => {
                             {navItems}
                         </ul>
                     </div>
-                    <a className="btn btn-ghost normal-case text-xl">daisyUI</a>
+                    <a className="btn btn-ghost normal-case  text-[#6765F0] text-2xl font-normal "><span className='text-2xl font-bold text-white bg-[#6765F0] p-2 rounded-xl mr-2'>Gym </span> Baran</a>
                 </div>
                 <div className="navbar-end hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
